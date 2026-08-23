@@ -1,4 +1,4 @@
-//first occurance
+//first occurance and last occurance
 package Binary_Search;
 
 public class program_19 {
@@ -22,6 +22,23 @@ public class program_19 {
             else {
                index = mid;
                high = mid -1;
+            }
+         }
+         System.out.println(index);
+         //last occurance 
+           while(low<high) {
+            int mid = (high+low)/2;
+            if(arr[mid]< target){
+                low = mid +1;
+
+            }
+            else if(arr[mid]> target){
+                high = mid-1;
+            }
+
+            else {
+               index = mid;
+               low = mid +1;
             }
          }
          System.out.println(index);
