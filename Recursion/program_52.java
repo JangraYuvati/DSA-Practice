@@ -1,3 +1,4 @@
+power function using recursion
 package Recursion;
 
 import java.util.Scanner;

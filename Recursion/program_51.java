@@ -1,3 +1,5 @@
+// factorial of n
+
 package Recursion;
 
 public class program_51 {
