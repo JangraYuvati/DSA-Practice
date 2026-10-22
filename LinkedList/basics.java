@@ -52,6 +52,29 @@ class LinkedList {
         }
         size--;
     }
+
+    void insert(int index, int value){
+        Node temp = head;
+        //create new node
+        Node newNode = new Node(value);
+       
+        
+        if(index == 0){
+            newNode.next = head;
+            head = newNode;
+        }
+        else if(index == size){
+            tail.next = newNode;
+            tail = newNode;
+        }
+        else{
+            for(int i = 0; i < index - 1; i++){
+                temp = temp.next;
+            }
+            newNode.next = temp.next;
+            temp.next = newNode;}
+        
+    }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         Node a = ll.new Node(10);
@@ -78,6 +101,16 @@ class LinkedList {
         ll.display(ll.head);
         //delete at index
         ll.delete(2);
+        ll.display(ll.head);
+
+        //insert at head
+        ll.insert(0, 5);
+        ll.display(ll.head);
+        //insert at tail
+        ll.insert(5, 70);
+        ll.display(ll.head);
+        //insert at index
+        ll.insert(3, 35);
         ll.display(ll.head);
     }
 }
