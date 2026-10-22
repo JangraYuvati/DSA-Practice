@@ -1,6 +1,5 @@
 // wave array
 
-package Array;
 import java.util.Scanner;
 
 public class program_11 {

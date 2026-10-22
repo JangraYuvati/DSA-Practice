@@ -1,3 +1,5 @@
+package Binary_Search;
+
 public class program_24 {
     public static void main(String[] args) {
         int n = 20;

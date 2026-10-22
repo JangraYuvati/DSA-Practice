@@ -1,6 +1,5 @@
 // Two Sum Problem: Find all pairs in an array whose sum is equal to 2
 
-package Array;
 
 import java.util.Scanner;
 public class program_5 {

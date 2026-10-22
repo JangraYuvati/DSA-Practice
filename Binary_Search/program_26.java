@@ -1,3 +1,5 @@
+package Binary_Search;
+
 import java.util.Scanner;
 public class program_26 {
     static int sqrt(int n){

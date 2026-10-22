@@ -1,6 +1,5 @@
 //search in array
 
-package Array;
 
 
 import java.util.Scanner;

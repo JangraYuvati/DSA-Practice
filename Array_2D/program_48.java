@@ -1,4 +1,6 @@
 //multiply matrix
+package Array_2D;
+
 public class program_48 {
     public static void main(String[] args) {
         int[][] a = {{1, 2}, {2, 1}};

@@ -1,5 +1,7 @@
 
 //palandrome
+package Strings;
+
 public class program_34 {
     public static void main(String[] args){
         String s  = "yuvati";

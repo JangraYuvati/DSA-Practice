@@ -1,5 +1,5 @@
 // nth fibonacci number
-package Recursion;
+package Recursion.Recursion;
 public class program_54 {
     public static void main(String[] args) {
         System.out.println(fibo(5));

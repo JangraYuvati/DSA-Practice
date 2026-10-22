@@ -1,6 +1,5 @@
 // Reverse an array
 
-package Array;
 
 public class program_7 {
     public static void main(String args[]) {

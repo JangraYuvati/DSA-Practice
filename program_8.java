@@ -1,6 +1,5 @@
 // rotate array by d elements in anti-clockwise direction
 
-package Array;
 import java.util.Arrays;
 import java.util.Scanner;
 public class program_8 {

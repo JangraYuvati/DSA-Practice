@@ -1,4 +1,5 @@
 //print all substrings
+package Strings;
 
 public class program_33 {
     public static void main(String[] args){

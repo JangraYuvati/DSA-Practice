@@ -1,5 +1,4 @@
 //segregate 0s and 1s in an array
-package Array;
 
 
 import java.util.Scanner;

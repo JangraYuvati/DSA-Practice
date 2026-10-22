@@ -1,4 +1,3 @@
-package Array;
 import java.util.Scanner;
 
 public class program_6 {

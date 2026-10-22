@@ -1,3 +1,5 @@
+package Recursion;
+
 public class program_55 {
     public static void main(String[] args) {
         System.out.println(ways(3, 3));

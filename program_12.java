@@ -1,5 +1,4 @@
 //Adding one to a number represented as an array 
-package Array;
 import java.util.Collections;
 import java.util.Vector;
 
@@ -28,4 +27,3 @@ public class program_12 {
     Collections.reverse(ans);
     System.out.println("The elements of the vector are: " + ans);
 }}
-

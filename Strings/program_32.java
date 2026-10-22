@@ -1,3 +1,5 @@
+package Strings;
+
 public class program_32 {
     public static void main(String[] args) {
         String s = "racecar";

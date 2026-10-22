@@ -1,6 +1,5 @@
 //multiply odd indexed elements by 2 and add 10 in even indexed elements 
 
-package Array;
 
 public class program_3 {
     public static void main(String args[]){

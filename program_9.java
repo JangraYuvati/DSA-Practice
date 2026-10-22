@@ -1,5 +1,4 @@
 //missing number in an array of size n-1 containing numbers from 1 to n
-package Array;
 
 import java.util.Scanner;
 public class program_9 {

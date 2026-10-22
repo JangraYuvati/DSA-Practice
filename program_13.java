@@ -1,6 +1,5 @@
 // merge 2 sorted arrays into a single sorted array
 
-package Array;
 
 public class program_13 {
     public static void main(String[] args){
@@ -41,4 +40,3 @@ public class program_13 {
      }
     }
         
-
